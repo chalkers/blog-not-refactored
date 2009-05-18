@@ -23,7 +23,7 @@
 <% end %>
 <div id="comments">
 <% if !@comments.nil? %>
-	<%= @comments.size %> comments
+	<%= @comments.size > 0 ? @comments.size : "No" %> comments
 	<% @comments.each do |comment|%>
 	<p>
 		Name: <%=h comment.name %><br />

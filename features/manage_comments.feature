@@ -43,4 +43,4 @@ Feature: Comment Management
 		And I press "Add Comment"
 		Then I should see "1 comment"
 		When I follow "Delete Comment"
-		Then I should see "0 comments"	
+		Then I should see "No comments"	
